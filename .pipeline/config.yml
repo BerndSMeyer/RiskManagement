@@ -23,14 +23,14 @@
     Release:
        cloudFoundryDeploy: true
        tmsUpload: false
-    steps:
-      cloudFoundryDeploy:
-        cloudFoundry: 
-          apiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
-          org: "8b725b7atrial"
-          space: "dev"
-          credentialsId: "bernd.meyer@capgemini.com"
-          appName: ""
-        mtaDeployParameters: "-f --version-rule ALL"
+ steps:
+    cloudFoundryDeploy:
+      cloudFoundry: 
+        apiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
+        org: "8b725b7atrial"
+        space: "dev"
+        credentialsId: "cfdeploy"
+        appName: ""
+      mtaDeployParameters: "-f --version-rule ALL"
     artifactPrepareVersion:
-        versioningType: "cloud_noTag"
+      versioningType: "cloud_noTag"
