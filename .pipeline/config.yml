@@ -29,7 +29,7 @@
           apiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
           org: "8b725b7atrial"
           space: "dev"
-          credentialsId: "cfdeploy"
+          credentialsId: "bernd.meyer@capgemini.com"
           appName: ""
         mtaDeployParameters: "-f --version-rule ALL"
     artifactPrepareVersion:
